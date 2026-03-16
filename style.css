@@ -1,0 +1,91 @@
+.section{
+    display: flex;
+    height: 110vh;
+
+}
+
+.skills li{
+    list-style: none;
+}
+.skills ul li{
+    margin-left: -40px;
+}
+ .skills li::before{
+    content: "➤ ";
+}
+.concepts ul li{
+    margin-left: 5px;
+}
+.technical_skills ul li{
+    list-style: none;
+    content: "➤ ";
+
+}
+
+.skills img{
+    display: flex;
+    height: 140px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+.personal_info{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    padding:20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(196, 224, 244);
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100vh;
+
+
+}
+
+.concepts ul{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+
+}
+.profile{
+    border-bottom: 2px solid black;
+    margin: 20px 10px;
+    margin-bottom: 0px;
+
+}
+.education{
+    border-bottom: 2px solid black;
+    margin: 0px 10px;
+    margin-bottom: 0px;
+
+}
+.projects{ 
+    margin: 0px 10px;
+    border-bottom: 2px solid black;
+
+
+}
+.intrests{
+    margin: 0px 10px;
+}
+
+.second p{
+    margin: 10px;
+}
+
+span{
+    font-weight:bold;
+}
