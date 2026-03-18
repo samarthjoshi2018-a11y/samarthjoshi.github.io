@@ -51,8 +51,7 @@
 .second{
     display: flex;
     flex-direction: column;
-    width: 80vw;
-
+    flex:1;
 
 }
 
@@ -90,4 +89,13 @@
 
 span{
     font-weight:bold;
+}
+
+@media(max-width:600px){
+    .section{
+        flex-direction: column;
+    }
+    .skills{
+        width: 100%;
+    }
 }
