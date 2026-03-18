@@ -45,6 +45,7 @@
     align-items: center;
     background-color: rgb(196, 224, 244);
     flex-shrink: 0;
+    align-self: stretch;
 
 }
 .second{
